@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+			<field
+				name="Menu Item"
+				type="menuitem"
+				label="Menu item"
+				description="Menu Item to select in gestione fields"
+				client_id="0"
+				class="form-select"
+				>
+			</field>
+			<option	value="">JDEFAULT</option>
+		</fieldset>
+	</fields>
+</form>
