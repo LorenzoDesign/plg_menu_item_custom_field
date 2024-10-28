@@ -3,7 +3,7 @@
 	<fields name="fieldparams">
 		<fieldset name="fieldparams">
 			<field
-				name="Menu Item"
+				name="menuitem"
 				type="menuitem"
 				label="Menu item"
 				description="Menu Item to select in gestione fields"
@@ -11,7 +11,6 @@
 				class="form-select"
 				>
 			</field>
-			<option	value="">JDEFAULT</option>
 		</fieldset>
 	</fields>
 </form>

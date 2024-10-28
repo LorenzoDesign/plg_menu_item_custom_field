@@ -16,7 +16,7 @@ use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 use Joomla\Event\DispatcherInterface;
-use Joomla\Plugin\Fields\Radio\Extension\Radio;
+use Lorenzo\Plugin\Fields\Menuitem\Extension\Menuitem;
 
 return new class () implements ServiceProviderInterface {
     /**
@@ -34,7 +34,7 @@ return new class () implements ServiceProviderInterface {
             PluginInterface::class,
             function (Container $container) {
                 $dispatcher = $container->get(DispatcherInterface::class);
-                $plugin     = new Radio(
+                $plugin     = new Menuitem(
                     $dispatcher,
                     (array) PluginHelper::getPlugin('fields', 'menuitem')
                 );

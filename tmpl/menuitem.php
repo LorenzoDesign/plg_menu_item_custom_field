@@ -23,3 +23,4 @@ if (is_array($value))
 $out = '<a href="#">'.$value.'</a>';
 //echo htmlentities($value);
 echo JHtml::_('content.prepare', $out);
+echo 'ciao';
