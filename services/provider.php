@@ -16,7 +16,7 @@ use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 use Joomla\Event\DispatcherInterface;
-use Lorenzo\Plugin\Fields\Menuitem\Extension\Menuitem;
+use Joomla\Plugin\Fields\Menuitem\Extension\Menuitem;
 
 return new class () implements ServiceProviderInterface {
     /**

@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 
 $value = $field->value;
-$title = $field->title;
+
 if ($value == '')
 {
 	return;
@@ -20,7 +20,7 @@ if (is_array($value))
 {
 	$value = implode(', ', $value);
 }
-$url = JRoute::_("index.php?Itemid={$value}");
-$out = '<a href="'.$url.'">'.$title.'</a>';
-
+$out = '<a href="#">'.$value.'</a>';
+//echo htmlentities($value);
 echo JHtml::_('content.prepare', $out);
+echo 'ciao';

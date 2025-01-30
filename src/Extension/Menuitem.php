@@ -8,7 +8,7 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-namespace Lorenzo\Plugin\Fields\Menuitem\Extension;
+namespace Joomla\Plugin\Fields\Menuitem\Extension;;
 
 use Joomla\CMS\Form\Form;
 use Joomla\Component\Fields\Administrator\Plugin\FieldsPlugin;
@@ -47,3 +47,4 @@ final class Menuitem extends FieldsPlugin
 		return $fieldNode;
 	}
 }
+ 
